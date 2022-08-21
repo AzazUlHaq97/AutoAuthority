@@ -1,0 +1,33 @@
+/*
+Theme Name: Avada
+Description: A business, portfolio and blog theme.
+Author: ThemeFusion
+Theme URI: http://theme-fusion.com/avada/
+Author URI: http://themeforest.net/user/ThemeFusion
+Version: 3.7.3
+License: Themeforest Split Licence
+License URI: -
+Text Domain: Avada
+-----------------------------------------------------------------------------*/
+
+/*
+Needed Styles From Bootstrap
+-----------------------------------------------------------------------------*/
+
+
+
+* {
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+.avada-row {
+  margin: 0 auto;
+  
+}
+.avada-row:after {
+  content: "";
+  display: block;
+  clear: both;
+}

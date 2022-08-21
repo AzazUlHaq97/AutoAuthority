@@ -1,0 +1,87 @@
+@font-face {
+   font-family: "myFirstFont";
+   src: url(http://ufonts.com/q125907) format("truetype");
+}
+body {
+	font-family: 'myFirstFont' , Helvetica, Arial, sans-serif;
+}
+
+nav, footer {
+	display: none;
+}
+
+/** TODO: WORK IN PROGRESS.. Still need to work out everything to be printed page-by-page. **/
+/** Currently isolating terms/policies for modal **/
+
+.reservation-flow.cars {
+	display: none;
+}
+
+.reservation-flow.extras {
+	display: none;
+}
+
+.reservation-utility-nav {
+	display: none;
+}
+
+.reservation-steps {
+	display: none;
+}
+
+.mobile-steps {
+	display: none;
+}
+
+.summary-container {
+	display: none;
+}
+
+.verification-page .verification-header {
+	display: none;
+}
+
+.verification-page .rental-information {
+	display: none;
+}
+
+.verification-page .rate-taxes-fees {
+	display: none;
+}
+
+.verification-page #personal-information {
+	display: none;
+}
+
+.verification-page .optional-information {
+	display: none;
+}
+
+.verification-page .terms-panel {
+	display: none;
+}
+
+.btn .submit {
+	display: none;
+}
+
+/* POLICIES */
+.modal-header {
+	display: none;
+}
+
+.hide.policy {
+	display: none;
+}
+
+.show.policy {
+	display: block;
+}
+
+.policy-tabs {
+	display: none;
+}
+
+.print-link {
+	display: none;
+}
